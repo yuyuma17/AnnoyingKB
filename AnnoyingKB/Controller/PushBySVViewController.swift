@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PushBySVViewController.swift
 //  AnnoyingKB
 //
 //  Created by 黃士軒 on 2020/1/4.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PushBySVViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
