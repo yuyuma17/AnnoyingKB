@@ -149,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czi-Fe-dO0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462.3188405797102" y="247.76785714285714"/>
+            <point key="canvasLocation" x="1445" y="-115"/>
         </scene>
         <!--Push TextField by Scroll View-->
         <scene sceneID="2qK-YB-C3T">
@@ -330,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JF9-3N-VfS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464" y="-441"/>
+            <point key="canvasLocation" x="1445" y="-794"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="pd5-tW-BgA">
@@ -344,6 +344,7 @@
                     <connections>
                         <segue destination="uXd-4e-zQF" kind="relationship" relationship="viewControllers" id="mfJ-56-ZQd"/>
                         <segue destination="lvb-z9-cpE" kind="relationship" relationship="viewControllers" id="GvN-OZ-v3X"/>
+                        <segue destination="pDK-uP-Kz6" kind="relationship" relationship="viewControllers" id="AN6-8Q-vId"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3N-XT-BUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -367,7 +368,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHU-ZO-e8W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="682.60869565217399" y="247.76785714285714"/>
+            <point key="canvasLocation" x="613" y="-115"/>
         </scene>
         <!--Method 1-->
         <scene sceneID="iQg-q2-QRM">
@@ -386,12 +387,149 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7oe-ej-tKt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="683" y="-441"/>
+            <point key="canvasLocation" x="612" y="-794"/>
+        </scene>
+        <!--Push TextField By IQManager-->
+        <scene sceneID="aQk-4m-mGh">
+            <objects>
+                <viewController id="I9K-NN-gaH" customClass="PushByIQManagerViewController" customModule="AnnoyingKB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="23S-2o-I3T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundView" translatesAutoresizingMaskIntoConstraints="NO" id="0Jh-rk-WY6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8hk-fe-hxk">
+                                <rect key="frame" x="132" y="254" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="gRo-75-CNE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwX-Di-aMk">
+                                <rect key="frame" x="132" y="313" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="1eU-di-j5N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f7O-uk-UCu">
+                                <rect key="frame" x="132" y="372" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="3lL-ke-VGF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cx5-FM-0pu">
+                                <rect key="frame" x="132" y="431" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="bBd-mf-SIe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqa-aD-qfi">
+                                <rect key="frame" x="132" y="490" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="qr6-KM-RKp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EpO-WK-uho">
+                                <rect key="frame" x="132" y="549" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="J8e-oa-fOa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3nZ-g6-xb5">
+                                <rect key="frame" x="132" y="608" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Cbu-7W-hvE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HQJ-OP-gEb">
+                                <rect key="frame" x="132" y="667" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="wz3-Lg-qzF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YfN-jJ-FDx">
+                                <rect key="frame" x="132" y="195" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="yob-TM-g7C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gqa-aD-qfi" firstAttribute="top" secondItem="cx5-FM-0pu" secondAttribute="bottom" constant="25" id="0of-3A-0Ic"/>
+                            <constraint firstItem="0Jh-rk-WY6" firstAttribute="leading" secondItem="23S-2o-I3T" secondAttribute="leading" id="1bM-Zl-IhT"/>
+                            <constraint firstItem="0Jh-rk-WY6" firstAttribute="trailing" secondItem="23S-2o-I3T" secondAttribute="trailing" id="3uY-e5-TUv"/>
+                            <constraint firstItem="gqa-aD-qfi" firstAttribute="centerX" secondItem="cx5-FM-0pu" secondAttribute="centerX" id="5C2-YB-gNL"/>
+                            <constraint firstItem="cx5-FM-0pu" firstAttribute="top" secondItem="f7O-uk-UCu" secondAttribute="bottom" constant="25" id="9wx-JI-z4l"/>
+                            <constraint firstItem="cx5-FM-0pu" firstAttribute="centerX" secondItem="23S-2o-I3T" secondAttribute="centerX" id="FHM-RC-vuI"/>
+                            <constraint firstItem="YfN-jJ-FDx" firstAttribute="centerX" secondItem="0Jh-rk-WY6" secondAttribute="centerX" id="GKA-8z-s0x"/>
+                            <constraint firstItem="3nZ-g6-xb5" firstAttribute="top" secondItem="EpO-WK-uho" secondAttribute="bottom" constant="25" id="GZf-r6-wll"/>
+                            <constraint firstAttribute="bottom" secondItem="0Jh-rk-WY6" secondAttribute="bottom" id="IrV-M9-67j"/>
+                            <constraint firstItem="EpO-WK-uho" firstAttribute="centerX" secondItem="gqa-aD-qfi" secondAttribute="centerX" id="Lga-pZ-6vr"/>
+                            <constraint firstItem="EpO-WK-uho" firstAttribute="top" secondItem="gqa-aD-qfi" secondAttribute="bottom" constant="25" id="M6j-yu-OyU"/>
+                            <constraint firstItem="0Jh-rk-WY6" firstAttribute="top" secondItem="23S-2o-I3T" secondAttribute="top" id="NSe-PH-Unf"/>
+                            <constraint firstItem="8hk-fe-hxk" firstAttribute="centerX" secondItem="iwX-Di-aMk" secondAttribute="centerX" id="Vic-ir-6VU"/>
+                            <constraint firstItem="iwX-Di-aMk" firstAttribute="top" secondItem="8hk-fe-hxk" secondAttribute="bottom" constant="25" id="afb-g1-dcJ"/>
+                            <constraint firstItem="8hk-fe-hxk" firstAttribute="top" secondItem="YfN-jJ-FDx" secondAttribute="bottom" constant="25" id="bne-JN-axJ"/>
+                            <constraint firstItem="iwX-Di-aMk" firstAttribute="centerX" secondItem="f7O-uk-UCu" secondAttribute="centerX" id="f3h-LY-i5o"/>
+                            <constraint firstItem="3nZ-g6-xb5" firstAttribute="centerX" secondItem="EpO-WK-uho" secondAttribute="centerX" id="gLM-Ja-zZ2"/>
+                            <constraint firstItem="f7O-uk-UCu" firstAttribute="top" secondItem="iwX-Di-aMk" secondAttribute="bottom" constant="25" id="jCf-xh-kxz"/>
+                            <constraint firstItem="f7O-uk-UCu" firstAttribute="centerX" secondItem="cx5-FM-0pu" secondAttribute="centerX" id="oeh-zx-23Y"/>
+                            <constraint firstItem="HQJ-OP-gEb" firstAttribute="centerX" secondItem="3nZ-g6-xb5" secondAttribute="centerX" id="qaI-vP-ZDJ"/>
+                            <constraint firstItem="HQJ-OP-gEb" firstAttribute="top" secondItem="3nZ-g6-xb5" secondAttribute="bottom" constant="25" id="snn-bb-RxS"/>
+                            <constraint firstItem="cx5-FM-0pu" firstAttribute="centerY" secondItem="23S-2o-I3T" secondAttribute="centerY" id="z6q-U8-ji2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gcf-SP-d2A"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Push TextField By IQManager" id="gnR-3Y-BsB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kT-Lr-9L4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1445" y="578"/>
+        </scene>
+        <!--Method 3-->
+        <scene sceneID="BUV-2k-hbT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pDK-uP-Kz6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Method 3" image="3.square" catalog="system" id="ykN-Wu-Gla"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KUN-8E-M1o">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I9K-NN-gaH" kind="relationship" relationship="rootViewController" id="zBV-ex-Znb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1Y-MC-LkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="578"/>
         </scene>
     </scenes>
     <resources>
         <image name="1.square" catalog="system" width="64" height="56"/>
         <image name="2.square" catalog="system" width="64" height="56"/>
+        <image name="3.square" catalog="system" width="64" height="56"/>
         <image name="BackgroundView" width="768" height="1663"/>
     </resources>
 </document>

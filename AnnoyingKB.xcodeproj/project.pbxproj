@@ -14,6 +14,8 @@
 		16057A0223C0D91A007AB158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16057A0123C0D91A007AB158 /* Assets.xcassets */; };
 		16057A0523C0D91A007AB158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16057A0323C0D91A007AB158 /* LaunchScreen.storyboard */; };
 		1614288523C23DCF00340362 /* PushNotBySVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614288423C23DCF00340362 /* PushNotBySVViewController.swift */; };
+		1614288923C361C000340362 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1614288823C361C000340362 /* README.md */; };
+		16613C9223C6BABD00760F2E /* PushByIQManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16613C9123C6BABD00760F2E /* PushByIQManagerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		16057A0423C0D91A007AB158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16057A0623C0D91A007AB158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1614288423C23DCF00340362 /* PushNotBySVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotBySVViewController.swift; sourceTree = "<group>"; };
+		1614288823C361C000340362 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		16613C9123C6BABD00760F2E /* PushByIQManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushByIQManagerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		160579EC23C0D919007AB158 = {
 			isa = PBXGroup;
 			children = (
+				1614288823C361C000340362 /* README.md */,
 				160579F723C0D919007AB158 /* AnnoyingKB */,
 				160579F623C0D919007AB158 /* Products */,
 			);
@@ -90,6 +95,7 @@
 			children = (
 				160579FC23C0D919007AB158 /* PushBySVViewController.swift */,
 				1614288423C23DCF00340362 /* PushNotBySVViewController.swift */,
+				16613C9123C6BABD00760F2E /* PushByIQManagerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 			files = (
 				16057A0523C0D91A007AB158 /* LaunchScreen.storyboard in Resources */,
 				16057A0223C0D91A007AB158 /* Assets.xcassets in Resources */,
+				1614288923C361C000340362 /* README.md in Resources */,
 				16057A0023C0D919007AB158 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +175,7 @@
 				1614288523C23DCF00340362 /* PushNotBySVViewController.swift in Sources */,
 				160579FD23C0D919007AB158 /* PushBySVViewController.swift in Sources */,
 				160579F923C0D919007AB158 /* AppDelegate.swift in Sources */,
+				16613C9223C6BABD00760F2E /* PushByIQManagerViewController.swift in Sources */,
 				160579FB23C0D919007AB158 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
