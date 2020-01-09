@@ -16,9 +16,11 @@
 		1614288523C23DCF00340362 /* PushNotBySVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614288423C23DCF00340362 /* PushNotBySVViewController.swift */; };
 		1614288923C361C000340362 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1614288823C361C000340362 /* README.md */; };
 		16613C9223C6BABD00760F2E /* PushByIQManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16613C9123C6BABD00760F2E /* PushByIQManagerViewController.swift */; };
+		2B5FA1BEFDE6214F43512F40 /* Pods_AnnoyingKB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CC8E940B92CC6D66DA6190 /* Pods_AnnoyingKB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A536DA9473B8EA8B7687CD5 /* Pods-AnnoyingKB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnoyingKB.release.xcconfig"; path = "Target Support Files/Pods-AnnoyingKB/Pods-AnnoyingKB.release.xcconfig"; sourceTree = "<group>"; };
 		160579F523C0D919007AB158 /* AnnoyingKB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnoyingKB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		160579F823C0D919007AB158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		160579FA23C0D919007AB158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		1614288423C23DCF00340362 /* PushNotBySVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotBySVViewController.swift; sourceTree = "<group>"; };
 		1614288823C361C000340362 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16613C9123C6BABD00760F2E /* PushByIQManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushByIQManagerViewController.swift; sourceTree = "<group>"; };
+		B0CC8E940B92CC6D66DA6190 /* Pods_AnnoyingKB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnnoyingKB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41738745E6469A2777B8D69 /* Pods-AnnoyingKB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnnoyingKB.debug.xcconfig"; path = "Target Support Files/Pods-AnnoyingKB/Pods-AnnoyingKB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5FA1BEFDE6214F43512F40 /* Pods_AnnoyingKB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,8 @@
 				1614288823C361C000340362 /* README.md */,
 				160579F723C0D919007AB158 /* AnnoyingKB */,
 				160579F623C0D919007AB158 /* Products */,
+				19654FEB227B7BFEB6AC3A93 /* Pods */,
+				819FF56F30DE4CFC3B773FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +107,24 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		19654FEB227B7BFEB6AC3A93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F41738745E6469A2777B8D69 /* Pods-AnnoyingKB.debug.xcconfig */,
+				0A536DA9473B8EA8B7687CD5 /* Pods-AnnoyingKB.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		819FF56F30DE4CFC3B773FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC8E940B92CC6D66DA6190 /* Pods_AnnoyingKB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16057A0923C0D91A007AB158 /* Build configuration list for PBXNativeTarget "AnnoyingKB" */;
 			buildPhases = (
+				DDCDE4406087C07B321D230D /* [CP] Check Pods Manifest.lock */,
 				160579F123C0D919007AB158 /* Sources */,
 				160579F223C0D919007AB158 /* Frameworks */,
 				160579F323C0D919007AB158 /* Resources */,
+				C2C265A286AEB1FBE3A6F46D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +193,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2C265A286AEB1FBE3A6F46D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnnoyingKB/Pods-AnnoyingKB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnnoyingKB/Pods-AnnoyingKB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnnoyingKB/Pods-AnnoyingKB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCDE4406087C07B321D230D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnnoyingKB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		160579F123C0D919007AB158 /* Sources */ = {
@@ -318,6 +387,7 @@
 		};
 		16057A0A23C0D91A007AB158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41738745E6469A2777B8D69 /* Pods-AnnoyingKB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +406,7 @@
 		};
 		16057A0B23C0D91A007AB158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A536DA9473B8EA8B7687CD5 /* Pods-AnnoyingKB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class PushByIQManagerViewController: UIViewController {
 
@@ -14,6 +15,7 @@ class PushByIQManagerViewController: UIViewController {
         super.viewDidLoad()
         
         addTapGesture()
+        IQKeyboardManager.shared.enable = true
     }
 }
 
