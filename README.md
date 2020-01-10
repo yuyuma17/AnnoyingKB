@@ -12,15 +12,15 @@ GIF Demo
 
 - **Tab 1：Push TextField by Scroll View**
 
-<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByScrollView.gif?raw=true" style="zoom:50%" />
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByScrollView.gif?raw=true" width=70% />
 
 - **Tab 2：Push TextField not by Scroll View**
 
-<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldNotByScrollView.gif?raw=true" style="zoom:50%" />
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldNotByScrollView.gif?raw=true" width=70% />
 
 - **Tab 3：Push TextField by IQKeyboardManager**
 
-<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByIQManager.gif?raw=true" style="zoom:50%" />
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByIQManager.gif?raw=true" width=70% />
 
 Requirements & Source
 ==========================
