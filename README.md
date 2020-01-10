@@ -10,27 +10,27 @@ Because of that, I collect three ways that can fix the issue into one app for my
 GIF Demo
 ==========================
 
-- Tab 1：Push TextField by Scroll View
+- **Tab 1：Push TextField by Scroll View**
 
-![](https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByScrollView.gif?raw=true)
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByScrollView.gif?raw=true" style="zoom:50%" />
 
-- Tab 2：Push TextField not by Scroll View
+- **Tab 2：Push TextField not by Scroll View**
 
-![](https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldNotByScrollView.gif?raw=true)
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldNotByScrollView.gif?raw=true" style="zoom:50%" />
 
-- Tab 3：Push TextField by IQKeyboardManager
+- **Tab 3：Push TextField by IQKeyboardManager**
 
-![](https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByIQManager.gif?raw=true)
+<img src="https://github.com/yuyuma17/AnnoyingKB/blob/master/Demo/PushTextFieldByIQManager.gif?raw=true" style="zoom:50%" />
 
 Requirements & Source
 ==========================
 
-|            | Tab 1 | Tab 2 | Tab 3 |
-|:----------:|:----------:|:-----:|:----------:|
-| need Delegate | ✅   | Cell 3    |  Cell 3    | 
-| need ScrollView | Cell 2    | Cell 3    |  Cell 3    |
-| need Install | Cell 2    | Cell 3    |  Cell 3    |
-| Source  | [Link](https://tinyurl.com/r5egua8) | [Link](https://tinyurl.com/uygk2gp) | [Link](https://tinyurl.com/u494xzd) |
+|                  | Tab 1 | Tab 2 | Tab 3 |
+|:-----------------|:-----:|:-----:|:-----:|
+|   Need Delegate  |  Yes  |  Yes  |   No  | 
+| Need Scroll View |  Yes  |  No   |   No  |
+| Need Install SDK |  No   |  No   |  Yes  |
+|      Source      | [Link](https://tinyurl.com/r5egua8) | [Link](https://tinyurl.com/uygk2gp) | [Link](https://tinyurl.com/u494xzd) |
 
 Others
 ==========================
