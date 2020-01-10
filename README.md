@@ -1,12 +1,22 @@
-# To-Do-List
-This is my first app.
+<p align="center">
+  <img src="https://img.icons8.com/bubbles/100/000000/keyboard.png" alt="Icon"/>
+</p>
+<H1 align="center">AnnoyingKB</H1>
 
-It includes these functions（Add、Delete、Revise、Save、Read）.
+When I develop iOS apps, I often run into the annoying issue of the **Keyboard** covering the `UITextField`.
 
-You can use it to write down the things that you need to do later.
+Because of that, I collect three ways that can fix the issue into one app for my note.
 
-Key learning concepts：UIAlert、UITableView、UserDefault
 
-## Demo - To-Do-List
 
-<img src="https://github.com/yuyuma17/To-Do-List/blob/master/Demo/d1.png?raw=true" width="290" height="550"> <img src="https://github.com/yuyuma17/To-Do-List/blob/master/Demo/d2.png?raw=true" width="290" height="550"> <img src="https://github.com/yuyuma17/To-Do-List/blob/master/Demo/d3.png?raw=true" width="290" height="550">
+
+Requirements & Source
+==========================
+
+|            | Need Delegate  | Need ScrollView | Need ScrollView | Source |
+|:----------:|:----------:|:-:|:----------| :----------|
+| Column 1  | ✅   | Cell 3    |  Cell 3    |[Link](https://tinyurl.com/r5egua8) |
+| Column 1  | Cell 2    | Cell 3    |  Cell 3    |[Link](https://tinyurl.com/uygk2gp) |
+| Column 1  | Cell 2    | Cell 3    |  Cell 3    |[Link](https://tinyurl.com/u494xzd) |
+
+✅
